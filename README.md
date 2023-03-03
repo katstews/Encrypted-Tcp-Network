@@ -9,3 +9,5 @@ The server will then bind to the given port address and store the key value. Nex
 > `python3 server.py <server IP> <server port number> <key>` 
 >
 Now the program should work. 
+
+## Functionality 
