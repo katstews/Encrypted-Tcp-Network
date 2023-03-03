@@ -11,4 +11,4 @@ The server will then bind to the given port address and store the key value. Nex
 Now the program should work. 
 
 ## Functionality 
-Both client and server share a 16 bytes key, so thus the message sent to client and server must also be 16 bytes long. Both programs inclube **Cryptodome** libraries to add and remove paddings. No error handlings in the program, it expects the user to know better. 
+Both client and server share a 16 bytes key, so thus the message sent to client and server must also be 16 bytes long. Both programs include *Cryptodome* libraries to add and remove paddings. No error handlings in the program, it expects the user to know better. Client program prompts user to enter a message, the program will then take that message, add the neccessary paddings if needed, then encrypt the message using the key the user passed in. Once the ciphertext is compiled, the client will then send the encrypted message over, rather than just plaintext. 
