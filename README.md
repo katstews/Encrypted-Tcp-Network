@@ -7,3 +7,5 @@ Within the tcp folder contains the server and client. User must specify what por
 > 
 The server will then bind to the given port address and store the key value. Next run client side to connect to the server, by running command in another terminal. Client must be specified with the server IP and port, plus the same key used for the server: 
 > `python3 server.py <server IP> <server port number> <key>` 
+>
+Now the program should work. 
