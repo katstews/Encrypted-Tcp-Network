@@ -11,3 +11,4 @@ The server will then bind to the given port address and store the key value. Nex
 Now the program should work. 
 
 ## Functionality 
+Both client and server share a 16 bytes key, so thus the message sent to client and server must also be 16 bytes long. Both programs inclube **Cryptodome** libraries to add and remove paddings. No error handlings in the program, it expects the user to know better. 
