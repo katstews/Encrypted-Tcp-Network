@@ -1,2 +1,2 @@
 # Encrypted-Tcp-Network
-yo mama
+Within the tcp folder contains the server and client. 
